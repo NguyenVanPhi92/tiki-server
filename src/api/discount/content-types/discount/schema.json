@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discounts",
+  "info": {
+    "singularName": "discount",
+    "pluralName": "discounts",
+    "displayName": "Discount"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "deacription": {
+      "type": "text"
+    },
+    "discount_percent": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
